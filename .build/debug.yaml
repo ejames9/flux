@@ -1,0 +1,43 @@
+client:
+  name: swift-build
+tools: {}
+targets:
+  "main": ["<flux.module>","<flux.exe>"]
+  "test": ["<flux.module>","<flux.exe>"]
+  "flux.module": ["<flux.module>"]
+  "flux.exe": ["<flux.exe>"]
+default: "main"
+commands: 
+  "<C.flux.exe>":
+    tool: phony
+    inputs: ["/Users/ericfoster/Documents/Developer/Swift/flux/.build/x86_64-apple-macosx10.10/debug/flux"]
+    outputs: ["<flux.exe>"]
+
+  "<C.flux.module>":
+    tool: phony
+    inputs: ["/Users/ericfoster/Documents/Developer/Swift/flux/.build/x86_64-apple-macosx10.10/debug/flux.swiftmodule"]
+    outputs: ["<flux.module>"]
+
+  "C.flux.exe":
+    tool: shell
+    description: "Linking ./.build/x86_64-apple-macosx10.10/debug/flux"
+    inputs: ["/Users/ericfoster/Documents/Developer/Swift/flux/.build/x86_64-apple-macosx10.10/debug/flux.build/Bottle.swift.o","/Users/ericfoster/Documents/Developer/Swift/flux/.build/x86_64-apple-macosx10.10/debug/flux.build/FluxStream.swift.o","/Users/ericfoster/Documents/Developer/Swift/flux/.build/x86_64-apple-macosx10.10/debug/flux.build/main.swift.o","/Users/ericfoster/Documents/Developer/Swift/flux/.build/x86_64-apple-macosx10.10/debug/flux.build/pointers.swift.o"]
+    outputs: ["/Users/ericfoster/Documents/Developer/Swift/flux/.build/x86_64-apple-macosx10.10/debug/flux"]
+    args: ["/Library/Developer/CommandLineTools/usr/bin/swiftc","-target","x86_64-apple-macosx10.10","-sdk","/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk","-g","-L","/Users/ericfoster/Documents/Developer/Swift/flux/.build/x86_64-apple-macosx10.10/debug","-o","/Users/ericfoster/Documents/Developer/Swift/flux/.build/x86_64-apple-macosx10.10/debug/flux","-module-name","flux","-emit-executable","/Users/ericfoster/Documents/Developer/Swift/flux/.build/x86_64-apple-macosx10.10/debug/flux.build/Bottle.swift.o","/Users/ericfoster/Documents/Developer/Swift/flux/.build/x86_64-apple-macosx10.10/debug/flux.build/FluxStream.swift.o","/Users/ericfoster/Documents/Developer/Swift/flux/.build/x86_64-apple-macosx10.10/debug/flux.build/main.swift.o","/Users/ericfoster/Documents/Developer/Swift/flux/.build/x86_64-apple-macosx10.10/debug/flux.build/pointers.swift.o"]
+
+  "C.flux.module":
+    tool: swift-compiler
+    executable: "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    module-name: "flux"
+    module-output-path: "/Users/ericfoster/Documents/Developer/Swift/flux/.build/x86_64-apple-macosx10.10/debug/flux.swiftmodule"
+    inputs: ["/Users/ericfoster/Documents/Developer/Swift/flux/Sources/Bottle.swift","/Users/ericfoster/Documents/Developer/Swift/flux/Sources/FluxStream.swift","/Users/ericfoster/Documents/Developer/Swift/flux/Sources/main.swift","/Users/ericfoster/Documents/Developer/Swift/flux/Sources/pointers.swift"]
+    outputs: ["/Users/ericfoster/Documents/Developer/Swift/flux/.build/x86_64-apple-macosx10.10/debug/flux.build/Bottle.swift.o","/Users/ericfoster/Documents/Developer/Swift/flux/.build/x86_64-apple-macosx10.10/debug/flux.build/FluxStream.swift.o","/Users/ericfoster/Documents/Developer/Swift/flux/.build/x86_64-apple-macosx10.10/debug/flux.build/main.swift.o","/Users/ericfoster/Documents/Developer/Swift/flux/.build/x86_64-apple-macosx10.10/debug/flux.build/pointers.swift.o","/Users/ericfoster/Documents/Developer/Swift/flux/.build/x86_64-apple-macosx10.10/debug/flux.swiftmodule"]
+    import-paths: ["/Users/ericfoster/Documents/Developer/Swift/flux/.build/x86_64-apple-macosx10.10/debug"]
+    temps-path: "/Users/ericfoster/Documents/Developer/Swift/flux/.build/x86_64-apple-macosx10.10/debug/flux.build"
+    objects: ["/Users/ericfoster/Documents/Developer/Swift/flux/.build/x86_64-apple-macosx10.10/debug/flux.build/Bottle.swift.o","/Users/ericfoster/Documents/Developer/Swift/flux/.build/x86_64-apple-macosx10.10/debug/flux.build/FluxStream.swift.o","/Users/ericfoster/Documents/Developer/Swift/flux/.build/x86_64-apple-macosx10.10/debug/flux.build/main.swift.o","/Users/ericfoster/Documents/Developer/Swift/flux/.build/x86_64-apple-macosx10.10/debug/flux.build/pointers.swift.o"]
+    other-args: ["-swift-version","3","-target","x86_64-apple-macosx10.10","-sdk","/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk","-Onone","-g","-enable-testing","-j8","-DSWIFT_PACKAGE","-module-cache-path","/Users/ericfoster/Documents/Developer/Swift/flux/.build/x86_64-apple-macosx10.10/debug/ModuleCache"]
+    sources: ["/Users/ericfoster/Documents/Developer/Swift/flux/Sources/Bottle.swift","/Users/ericfoster/Documents/Developer/Swift/flux/Sources/FluxStream.swift","/Users/ericfoster/Documents/Developer/Swift/flux/Sources/main.swift","/Users/ericfoster/Documents/Developer/Swift/flux/Sources/pointers.swift"]
+    is-library: false
+    enable-whole-module-optimization: false
+    num-threads: "8"
+

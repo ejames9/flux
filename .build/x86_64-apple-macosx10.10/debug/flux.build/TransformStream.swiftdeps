@@ -1,0 +1,101 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So11InputStreamC", ""]
+- ["So11InputStreamC", "pipe"]
+provides-dynamic-lookup:
+- "pipe"
+depends-top-level:
+- "InputStream"
+- "OutputStream"
+- !private "UInt8"
+- !private "UnsafeMutablePointer"
+depends-member:
+- !private ["s7CVarArgP", "UnsafeMutablePointer"]
+- !private ["s7CVarArgP", "allocate"]
+- !private ["s7CVarArgP", "read"]
+- !private ["s7CVarArgP", "write"]
+- !private ["s10ComparableP", "allocate"]
+- !private ["s28CustomDebugStringConvertibleP", "UnsafeMutablePointer"]
+- !private ["s28CustomDebugStringConvertibleP", "allocate"]
+- !private ["s28CustomDebugStringConvertibleP", "read"]
+- !private ["s28CustomDebugStringConvertibleP", "write"]
+- !private ["s29CustomPlaygroundQuickLookableP", "allocate"]
+- !private ["s17CustomReflectableP", "allocate"]
+- !private ["s23CustomStringConvertibleP", "UnsafeMutablePointer"]
+- !private ["s23CustomStringConvertibleP", "read"]
+- !private ["s23CustomStringConvertibleP", "write"]
+- !private ["s9EquatableP", "UnsafeMutablePointer"]
+- !private ["s9EquatableP", "allocate"]
+- !private ["s9EquatableP", "read"]
+- !private ["s9EquatableP", "write"]
+- !private ["s8HashableP", "UnsafeMutablePointer"]
+- !private ["s8HashableP", "allocate"]
+- !private ["s8HashableP", "read"]
+- !private ["s8HashableP", "write"]
+- ["So11InputStreamC", "OutputStream"]
+- !private ["So11InputStreamC", "UInt8"]
+- !private ["So11InputStreamC", "UnsafeMutablePointer"]
+- ["So11InputStreamC", "pipe"]
+- !private ["So11InputStreamC", "read"]
+- ["So8NSObjectC", "OutputStream"]
+- !private ["So8NSObjectC", "UInt8"]
+- !private ["So8NSObjectC", "UnsafeMutablePointer"]
+- ["So8NSObjectC", "pipe"]
+- !private ["So8NSObjectC", "read"]
+- !private ["So8NSObjectC", "write"]
+- !private ["So16NSObjectProtocolP", "UnsafeMutablePointer"]
+- !private ["So16NSObjectProtocolP", "read"]
+- !private ["So16NSObjectProtocolP", "write"]
+- !private ["So12OutputStreamC", "write"]
+- ["So6StreamC", "OutputStream"]
+- !private ["So6StreamC", "UInt8"]
+- !private ["So6StreamC", "UnsafeMutablePointer"]
+- ["So6StreamC", "pipe"]
+- !private ["So6StreamC", "read"]
+- !private ["So6StreamC", "write"]
+- !private ["s10StrideableP", "allocate"]
+- !private ["Sp", "allocate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UnsafeMutablePointer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "read"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "write"]
+- !private ["s8_PointerP", "allocate"]
+- !private ["s11_StrideableP", "allocate"]
+depends-nominal:
+- !private "s7CVarArgP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9EquatableP"
+- !private "s8HashableP"
+- "So11InputStreamC"
+- "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So12OutputStreamC"
+- "So6StreamC"
+- !private "s10StrideableP"
+- !private "Sp"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s8_PointerP"
+- !private "s11_StrideableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "b9491c917e7fa4f495e6a3d78de6df7c"

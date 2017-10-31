@@ -1,0 +1,8 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
+options: "5e0eedad43fd3d563035c43ec9d5c5af"
+build_time: [1509323790, 493932000]
+inputs:
+  "/Users/ericfoster/Documents/Developer/Swift/flux/Sources/Bottle.swift": [1509255715, 0]
+  "/Users/ericfoster/Documents/Developer/Swift/flux/Sources/FluxStream.swift": !dirty [1509323787, 0]
+  "/Users/ericfoster/Documents/Developer/Swift/flux/Sources/main.swift": [1509256054, 0]
+  "/Users/ericfoster/Documents/Developer/Swift/flux/Sources/pointers.swift": [1509240420, 0]

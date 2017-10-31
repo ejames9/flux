@@ -1,0 +1,29 @@
+{
+  "": {
+    "swift-dependencies": "/Users/ericfoster/Documents/Developer/Swift/flux/.build/x86_64-apple-macosx10.10/debug/flux.build/master.swiftdeps"
+  },
+  "/Users/ericfoster/Documents/Developer/Swift/flux/Sources/Bottle.swift": {
+    "dependencies": "/Users/ericfoster/Documents/Developer/Swift/flux/.build/x86_64-apple-macosx10.10/debug/flux.build/Bottle.d",
+    "object": "/Users/ericfoster/Documents/Developer/Swift/flux/.build/x86_64-apple-macosx10.10/debug/flux.build/Bottle.swift.o",
+    "swiftmodule": "/Users/ericfoster/Documents/Developer/Swift/flux/.build/x86_64-apple-macosx10.10/debug/flux.build/Bottle~partial.swiftmodule",
+    "swift-dependencies": "/Users/ericfoster/Documents/Developer/Swift/flux/.build/x86_64-apple-macosx10.10/debug/flux.build/Bottle.swiftdeps"
+  },
+  "/Users/ericfoster/Documents/Developer/Swift/flux/Sources/FluxStream.swift": {
+    "dependencies": "/Users/ericfoster/Documents/Developer/Swift/flux/.build/x86_64-apple-macosx10.10/debug/flux.build/FluxStream.d",
+    "object": "/Users/ericfoster/Documents/Developer/Swift/flux/.build/x86_64-apple-macosx10.10/debug/flux.build/FluxStream.swift.o",
+    "swiftmodule": "/Users/ericfoster/Documents/Developer/Swift/flux/.build/x86_64-apple-macosx10.10/debug/flux.build/FluxStream~partial.swiftmodule",
+    "swift-dependencies": "/Users/ericfoster/Documents/Developer/Swift/flux/.build/x86_64-apple-macosx10.10/debug/flux.build/FluxStream.swiftdeps"
+  },
+  "/Users/ericfoster/Documents/Developer/Swift/flux/Sources/main.swift": {
+    "dependencies": "/Users/ericfoster/Documents/Developer/Swift/flux/.build/x86_64-apple-macosx10.10/debug/flux.build/main.d",
+    "object": "/Users/ericfoster/Documents/Developer/Swift/flux/.build/x86_64-apple-macosx10.10/debug/flux.build/main.swift.o",
+    "swiftmodule": "/Users/ericfoster/Documents/Developer/Swift/flux/.build/x86_64-apple-macosx10.10/debug/flux.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/ericfoster/Documents/Developer/Swift/flux/.build/x86_64-apple-macosx10.10/debug/flux.build/main.swiftdeps"
+  },
+  "/Users/ericfoster/Documents/Developer/Swift/flux/Sources/pointers.swift": {
+    "dependencies": "/Users/ericfoster/Documents/Developer/Swift/flux/.build/x86_64-apple-macosx10.10/debug/flux.build/pointers.d",
+    "object": "/Users/ericfoster/Documents/Developer/Swift/flux/.build/x86_64-apple-macosx10.10/debug/flux.build/pointers.swift.o",
+    "swiftmodule": "/Users/ericfoster/Documents/Developer/Swift/flux/.build/x86_64-apple-macosx10.10/debug/flux.build/pointers~partial.swiftmodule",
+    "swift-dependencies": "/Users/ericfoster/Documents/Developer/Swift/flux/.build/x86_64-apple-macosx10.10/debug/flux.build/pointers.swiftdeps"
+  }
+}

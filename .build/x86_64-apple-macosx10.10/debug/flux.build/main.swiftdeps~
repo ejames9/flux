@@ -1,0 +1,329 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "StreamDelegate"
+- "loop"
+- "Flux"
+- "flux"
+- "fluxPlugin"
+provides-nominal:
+- "4flux14StreamDelegateP"
+- "4flux4FluxC"
+provides-member:
+- ["So11InputStreamC", ""]
+- ["4flux14StreamDelegateP", ""]
+- ["4flux4FluxC", ""]
+- ["So11InputStreamC", "pipe"]
+provides-dynamic-lookup:
+- "pipe"
+depends-top-level:
+- !private "AssignmentPrecedence"
+- !private "File"
+- "Flux"
+- "FluxStream"
+- "InputStream"
+- "OutputStream"
+- "RunLoop"
+- "Stream"
+- "StreamDelegate"
+- "String"
+- "StringLiteralType"
+- "UInt8"
+- !private "UnicodeScalarType"
+- "UnsafeMutablePointer"
+- "Void"
+- "flux"
+- "fluxPlugin"
+- "loop"
+- !private "print"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "description"]
+- ["s23BidirectionalCollectionP", "init"]
+- ["s7CVarArgP", "Event"]
+- !private ["s7CVarArgP", "UnsafeMutablePointer"]
+- !private ["s7CVarArgP", "allocate"]
+- !private ["s7CVarArgP", "append"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "open"]
+- !private ["s7CVarArgP", "push"]
+- !private ["s7CVarArgP", "read"]
+- !private ["s7CVarArgP", "write"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "description"]
+- ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "allocate"]
+- ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "Event"]
+- !private ["s28CustomDebugStringConvertibleP", "UnsafeMutablePointer"]
+- !private ["s28CustomDebugStringConvertibleP", "allocate"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "open"]
+- !private ["s28CustomDebugStringConvertibleP", "push"]
+- !private ["s28CustomDebugStringConvertibleP", "read"]
+- !private ["s28CustomDebugStringConvertibleP", "write"]
+- !private ["s29CustomPlaygroundQuickLookableP", "allocate"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "allocate"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "description"]
+- ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "Event"]
+- !private ["s23CustomStringConvertibleP", "UnsafeMutablePointer"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "open"]
+- !private ["s23CustomStringConvertibleP", "push"]
+- !private ["s23CustomStringConvertibleP", "read"]
+- !private ["s23CustomStringConvertibleP", "write"]
+- !private ["10Foundation4DataV", "description"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "description"]
+- ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "description"]
+- ["s9EncodableP", "init"]
+- ["s9EquatableP", "Event"]
+- !private ["s9EquatableP", "UnsafeMutablePointer"]
+- !private ["s9EquatableP", "allocate"]
+- !private ["s9EquatableP", "description"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "open"]
+- !private ["s9EquatableP", "push"]
+- !private ["s9EquatableP", "read"]
+- !private ["s9EquatableP", "write"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["4flux4FileC", "buffer"]
+- !private ["4flux4FileC", "byteLength"]
+- !private ["4flux4FileC", "contents"]
+- !private ["4flux4FileC", "init"]
+- !private ["4flux4FileC", "isBottle"]
+- !private ["4flux4FileC", "path"]
+- !private ["4flux4FileC", "url"]
+- !private ["4flux4FluxC", "File"]
+- ["4flux4FluxC", "FluxStream"]
+- ["4flux4FluxC", "OutputStream"]
+- ["4flux4FluxC", "String"]
+- ["4flux4FluxC", "UInt8"]
+- ["4flux4FluxC", "UnsafeMutablePointer"]
+- ["4flux4FluxC", "Void"]
+- !private ["4flux4FluxC", "buffer"]
+- ["4flux4FluxC", "deinit"]
+- ["4flux4FluxC", "flow"]
+- ["4flux4FluxC", "fluxPipe"]
+- ["4flux4FluxC", "from"]
+- ["4flux4FluxC", "init"]
+- !private ["4flux4FluxC", "initiateDataStream"]
+- !private ["4flux4FluxC", "print"]
+- ["4flux4FluxC", "task"]
+- ["4flux4FluxC", "tasks"]
+- ["4flux4FluxC", "to"]
+- !private ["4flux4FluxC", "uint8Pointer"]
+- !private ["4flux10FluxStreamC", "init"]
+- !private ["4flux10FluxStreamC", "open"]
+- !private ["4flux10FluxStreamC", "push"]
+- ["s8HashableP", "Event"]
+- !private ["s8HashableP", "UnsafeMutablePointer"]
+- !private ["s8HashableP", "allocate"]
+- !private ["s8HashableP", "description"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "open"]
+- !private ["s8HashableP", "push"]
+- !private ["s8HashableP", "read"]
+- !private ["s8HashableP", "write"]
+- ["So11InputStreamC", "InputStream"]
+- ["So11InputStreamC", "OutputStream"]
+- !private ["So11InputStreamC", "UInt8"]
+- !private ["So11InputStreamC", "UnsafeMutablePointer"]
+- ["So11InputStreamC", "pipe"]
+- !private ["So11InputStreamC", "read"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "description"]
+- ["So8NSCodingP", "init"]
+- ["So9NSCopyingP", "init"]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
+- ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "Event"]
+- ["So8NSObjectC", "InputStream"]
+- ["So8NSObjectC", "OutputStream"]
+- !private ["So8NSObjectC", "UInt8"]
+- !private ["So8NSObjectC", "UnsafeMutablePointer"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "open"]
+- ["So8NSObjectC", "pipe"]
+- !private ["So8NSObjectC", "push"]
+- !private ["So8NSObjectC", "read"]
+- !private ["So8NSObjectC", "write"]
+- ["So16NSObjectProtocolP", "Event"]
+- !private ["So16NSObjectProtocolP", "UnsafeMutablePointer"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "open"]
+- !private ["So16NSObjectProtocolP", "push"]
+- !private ["So16NSObjectProtocolP", "read"]
+- !private ["So16NSObjectProtocolP", "write"]
+- ["So14NSSecureCodingP", "init"]
+- ["So8NSStringC", "init"]
+- !private ["So12OutputStreamC", "init"]
+- !private ["So12OutputStreamC", "write"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "description"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "description"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "description"]
+- ["So7RunLoopC", "init"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "description"]
+- ["s8SequenceP", "init"]
+- ["So6StreamC", "Event"]
+- ["So6StreamC", "InputStream"]
+- ["So6StreamC", "OutputStream"]
+- !private ["So6StreamC", "UInt8"]
+- !private ["So6StreamC", "UnsafeMutablePointer"]
+- !private ["So6StreamC", "init"]
+- !private ["So6StreamC", "open"]
+- ["So6StreamC", "pipe"]
+- !private ["So6StreamC", "push"]
+- !private ["So6StreamC", "read"]
+- !private ["So6StreamC", "write"]
+- ["4flux14StreamDelegateP", "InputStream"]
+- ["4flux14StreamDelegateP", "Stream"]
+- ["4flux14StreamDelegateP", "stream"]
+- !private ["s10StrideableP", "allocate"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["Sp", "allocate"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s23_BidirectionalIndexableP", "append"]
+- !private ["s23_BidirectionalIndexableP", "description"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "append"]
+- !private ["s10_IndexableP", "description"]
+- ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "append"]
+- !private ["s14_IndexableBaseP", "description"]
+- ["s14_IndexableBaseP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Event"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UnsafeMutablePointer"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "open"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "push"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "read"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "write"]
+- !private ["s17_MutableIndexableP", "append"]
+- !private ["s17_MutableIndexableP", "description"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "description"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s8_PointerP", "allocate"]
+- !private ["s22_RandomAccessIndexableP", "append"]
+- !private ["s22_RandomAccessIndexableP", "description"]
+- !private ["s26_RangeReplaceableIndexableP", "append"]
+- !private ["s26_RangeReplaceableIndexableP", "description"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s11_StrideableP", "allocate"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- "s23BidirectionalCollectionP"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "4flux4FileC"
+- "4flux4FluxC"
+- !private "4flux10FluxStreamC"
+- "s8HashableP"
+- "So11InputStreamC"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- !private "So12OutputStreamC"
+- !private "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- !private "10Foundation20ReferenceConvertibleP"
+- "So7RunLoopC"
+- "s8SequenceP"
+- "So6StreamC"
+- "4flux14StreamDelegateP"
+- !private "s10StrideableP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "Sp"
+- !private "s14_ArrayProtocolP"
+- "s23_BidirectionalIndexableP"
+- !private "s24_DestructorSafeContainerP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- !private "s22_RandomAccessIndexableP"
+- "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "217202cf12800486ad9e115ba7a21b8e"
